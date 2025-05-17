@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Joining Roblox Server...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #f5f5f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ff9100;
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #d0d0d0;
+      margin-bottom: 2em;
+    }
+
+    a {
+      background-color: #ff9100;
+      color: #1e1e1e;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    a:hover {
+      background-color: #ffa733;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const placeId = urlParams.get("placeId");
+    const jobId = urlParams.get("jobId");
+
+    if (placeId && jobId) {
+      const robloxUrl = `roblox://placeId=${placeId}&gameInstanceId=${jobId}`;
+      setTimeout(() => {
+        window.location.href = robloxUrl;
+      }, 100); 
+    }
+  </script>
+</head>
+<body>
+  <h1>Joining Roblox Server...</h1>
+  <p>If you're not redirected automatically,<br>click the button below:</p>
+  <a id="joinButton" href="#">Join Now</a>
+
+  <div class="footer">
+    Peteware Auto Join • Roblox URI Handler
+  </div>
+
+  <script>
+    const btn = document.getElementById("joinButton");
+    if (placeId && jobId) {
+      btn.href = `roblox://placeId=${placeId}&gameInstanceId=${jobId}`;
+    } else {
+      btn.innerText = "Invalid Link";
+      btn.style.backgroundColor = "#444";
+      btn.href = "#";
+    }
+  </script>
+</body>
+</html>
