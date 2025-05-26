@@ -1,16 +1,13 @@
--- Peteware Roblox JobId & PlaceId webhook sender
--- Credits: Peteware
-
 local HttpService = game:GetService("HttpService")
 
 local webhookURL = "YOUR_DISCORD_WEBHOOK_URL_HERE"
 
 local data = {
-    username = "Peteware Assistant",
-    avatar_url = "https://media.discordapp.net/attachments/1276618605215219722/1370449278857641994/peteware.png?ex=68203299&is=681ee119&hm=b3b9e1caf3824fd08598ede191cea7c2b5a45788d25aa8b389a5f8e51053fcba&=&format=webp&quality=lossless&width=537&height=602",
+    username = "Petah Assistant",
+    avatar_url = "https://media.discordapp.net/attachments/1276618605215219722/1370544872993329162/stewie-gun.gif?ex=681fe2e1&is=681e9161&hm=257497f332ffab8ba50af15641d62fc2647ef1fa01a3fd166dbfe0f5886d2dbf&=",
     embeds = {{
         title = "Roblox Server Info",
-        description = "Current server info fetched by Peteware script.",
+        description = "Fetched by Peteware.",
         color = 0xFF9100,
         thumbnail = {
             url = "https://media.discordapp.net/attachments/1276618605215219722/1370449278857641994/peteware.png?ex=68203299&is=681ee119&hm=b3b9e1caf3824fd08598ede191cea7c2b5a45788d25aa8b389a5f8e51053fcba&=&format=webp&quality=lossless&width=537&height=602"
