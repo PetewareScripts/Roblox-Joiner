@@ -1,4 +1,4 @@
-### Peteware Roblox Joiner
+# Peteware Roblox Joiner
 
 A simple and sleek HTML page that redirects users to a specific Roblox game server using Roblox URI handlers.
 
@@ -39,4 +39,4 @@ https://discord.gg/4UjSNcPCdh
 
 ---
 
-## Developed by Peteware
+### Developed by Peteware
