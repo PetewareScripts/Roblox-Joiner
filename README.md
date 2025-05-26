@@ -22,18 +22,21 @@ Easily customizable and extendable.
 ## Usage
 
 ```lua
-https://petewarescripts.github.io/Roblox-Joiner/?placeId=ExampleplaceId&jobId=ExamplejobId```
+https://petewarescripts.github.io/Roblox-Joiner/?placeId=ExampleplaceId&jobId=ExamplejobId
+```
 
 The page will then redirect visitors to the corresponding Roblox game server automatically.
 
-License
+## License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this project with attribution to Peteware.
 
-Contact & Support
+## Contact & Support
 
 For questions or support, join our Discord:
 https://discord.gg/4UjSNcPCdh
 
 ---
+
+## Developed by Peteware
