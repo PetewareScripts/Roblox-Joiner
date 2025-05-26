@@ -3,7 +3,7 @@ local HttpService = game:GetService("HttpService")
 local githubBase = "https://petewarescripts.github.io/Roblox-Joiner/"
 local githubJoinLink = string.format("%s/?placeId=%d&jobId=%s", githubBase, placeId, jobId)
 
---// 
+--// Webhook Sending
 local webhookURL = "YOUR_DISCORD_WEBHOOK_URL_HERE"
 
 local data = {
