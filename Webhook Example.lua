@@ -57,7 +57,7 @@ local data = {
             },
             {
                 name = "Credits",
-                value = "**Peteware -** https://github.com/PetewareScripts",
+                value = "**Peteware -** https://discord.gg/4UjSNcPCdh",
                 inline = false
             }
         },
