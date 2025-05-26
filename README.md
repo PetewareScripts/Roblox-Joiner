@@ -30,7 +30,7 @@ The page will then redirect visitors to the corresponding Roblox game server aut
 ## License
 
 This project is licensed under the MIT License.
-You are free to use, modify, and distribute this project with attribution to Peteware.
+You are free to use, modify, and distribute the code, but you must give proper credit to the original author (Peteware).
 
 ## Contact & Support
 
