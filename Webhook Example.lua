@@ -2,7 +2,7 @@
 PLEASE READ - IMPORTANT
 
 © 2025 Peteware
-This project is part of Peteware V1, an open-source Roblox script collection.
+This project is part of Roblox-Joinef, an open-source utility for joining roblox servers.
 
 Licensed under the MIT License.  
 See the full license at:  
