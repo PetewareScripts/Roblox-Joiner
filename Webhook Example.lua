@@ -2,11 +2,11 @@
 PLEASE READ - IMPORTANT
 
 © 2025 Peteware
-This project is part of Roblox-Joinef, an open-source utility for joining roblox servers.
+This project is part of Roblox-Server-Joiner, an open-source utility for joining roblox servers.
 
 Licensed under the MIT License.  
 See the full license at:  
-https://github.com/PetewareScripts/Peteware-V1/blob/main/LICENSE
+https://github.com/PetewareScripts/Roblox-Server-Joiner/blob/main/LICENSE
 
 **Attribution required:** You must give proper credit to Peteware when using or redistributing this project or its derivatives.
 
@@ -20,10 +20,11 @@ Peteware Development Team
 
 --// Services & Setup
 httprequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
-local HttpService = game:GetService("HttpService")
+
+local httpService = game:GetService("HttpService")
 local placeId = game.PlaceId
 local jobId = game.JobId
-local githubBase = "https://petewarescripts.github.io/Roblox-Joiner/"
+local githubBase = "https://petewarescripts.github.io/Roblox-Server-Joiner/"
 local githubJoinLink = string.format("%s/?placeId=%d&jobId=%s", githubBase, placeId, jobId)
 
 --// Webhook Sending
@@ -71,7 +72,7 @@ if httprequest then
             Url = webhookURL,
             Method = "POST",
             Headers = {["Content-Type"] = "application/json"},
-            Body = HttpService:JSONEncode(data)
+            Body = httpService:JSONEncode(data)
         })
     end)
 end
