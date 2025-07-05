@@ -22,7 +22,7 @@ Easily customizable and extendable.
 ## Usage
 
 ```lua
-https://petewarescripts.github.io/Roblox-Joiner/?placeId=ExampleplaceId&jobId=ExamplejobId
+https://petewarescripts.github.io/Roblox-Server-Joiner/?placeId=ExampleplaceId&jobId=ExamplejobId
 ```
 
 The page will then redirect visitors to the corresponding Roblox game server automatically.
